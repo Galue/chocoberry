@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>MENÚ</title>
+      <style>
+         .container {
+            overflow: hidden;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+         }
+         .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+         }
+         .slide {
+            width: 100%;
+            text-align: center;
+            font-size: 72px;
+            font-weight: bold;
+            color: #333;
+         }
+         .slider.slide-1 {
+            transform: translateX(0%);
+         }
+         .slider.slide-2 {
+            transform: translateX(-100%);
+         }
+         .slider.slide-3 {
+            transform: translateX(-200%);
+         }
+      </style>
+   </head>
+   <body>
+
+<style>
+body {
+  background-image: url('fres.png');
+}
+</style>
+
+
+      <div class="container">
+      <div class="slider">
+      <div class="slide">M</div>
+      <div class="slide">E</div>
+      <div class="slide">N</div>
+      <div class="slide">U</div>
+
+   
+      </div>
+      </div>
+      <script>
+         var currentSlide = 1;
+         var slider = document.querySelector('.slider');
+         setInterval(function () {
+            currentSlide++;
+            if (currentSlide > 26) {
+               currentSlide = 1;
+            }
+            slider.classList.remove('slide-' + (currentSlide - 1));
+            slider.classList.add('slide-' + currentSlide);
+         }, 1000);
+      </script>
+<center>
+
+<table class="default">
+
+
+<table border= 1XP  width="80%" bgcolor="white" >
+
+  <tr>
+
+    <td>FRESAS CON CHOCOLATE </td>
+
+    <td>TOPPINGS </td>
+
+    
+
+  </tr>
+
+  <tr>
+
+    <td> <img src="22422.jpg" width="500"> </td>
+
+<td>CHISPAS DE COLORES <br>
+<BR>
+ NUEZ MOLIDA <br>
+<br>
+GALLETA OREO <br>
+<br>
+CHISPAS DE COLORES 
+
+</td>
+
+
+  </tr>
+
+</table>
+
+1 FRESA $12     -      +3 FRESAS $30 <br>
+
+ <img src="señora.gif" > <BR>
+<BR>
+<BR>
+
+<a href="index.html">
+INICIO
+
+</center>
+   </body>
+
+
+</html>

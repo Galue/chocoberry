@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>CHOCOBERRY</title>
+      <style>
+         .container {
+            overflow: hidden;
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+         }
+         .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+         }
+         .slide {
+            width: 100%;
+            text-align: center;
+            font-size: 72px;
+            font-weight: bold;
+            color: #333;
+         }
+         .slider.slide-1 {
+            transform: translateX(0%);
+         }
+         .slider.slide-2 {
+            transform: translateX(-100%);
+         }
+         .slider.slide-3 {
+            transform: translateX(-200%);
+         }
+      </style>
+   </head>
+   <body>
+      <div class="container">
+      <div class="slider">
+      <div class="slide">C</div>
+      <div class="slide">H</div>
+      <div class="slide">O</div>
+      <div class="slide">C</div>
+      <div class="slide">O</div>
+      <div class="slide">B</div>
+      <div class="slide">E</div>
+      <div class="slide">R</div>
+      <div class="slide">R</div>
+      <div class="slide">Y</div>
+      </div>
+      </div>
+      <script>
+         var currentSlide = 1;
+         var slider = document.querySelector('.slider');
+         setInterval(function () {
+            currentSlide++;
+            if (currentSlide > 26) {
+               currentSlide = 1;
+            }
+            slider.classList.remove('slide-' + (currentSlide - 1));
+            slider.classList.add('slide-' + currentSlide);
+         }, 1000);
+      </script>
+	<body bgcolor="pink">
+	¡Bienvenido/a!
+
+¡Bienvenido/a!
+
+Si eres un amante del chocolate y las fresas, estás en el lugar correcto. ¿Qué tal si combinamos ambos sabores para crear una experiencia única y deliciosa?
+
+Los chocolates con fresa son una de las combinaciones más populares en el mundo de los dulces y no es difícil entender por qué. El chocolate aporta una textura suave y cremosa, mientras que la fresa le da un toque fresco y ácido que lo hace irresistible.
+
+Ya sea que prefieras los bombones rellenos de fresa, las fresas bañadas en chocolate, o cualquier otra variedad, estamos seguros de que encontrarás algo que te encantará.
+
+Así que siéntete libre de explorar y descubrir nuevos sabores y texturas en nuestra selección de chocolates con fresa. ¡Disfruta!
+ 
+	<h1>Objetivos Generales</h1>
+	<ul>
+		<li> Diseñar una pequeña empresa de venta de fresas con chocolate en el Colegio Mexicano de Veracruz que sea económica y socialmente viable
+</li>
+	</ul>
+	<h1>Objetivos Específicos</h1>
+	<ol>
+		<li>Desarrollar un estudio de mercado dentro del Colegio Mexicano de Veracruz</li>
+		<li>Analizar los resultados del estudio de mercado para implementar estrategias del emprendimiento</li>
+		<li>Desarrollar un control de calidad y acorde a las necesidad del producto</li>
+		<li>Evaluar la rentabilidad del producto</li>
+	</ol>
+	<h1></h1>
+ <center>
+	<img src="Captura de pantalla 2023-05-02 164506.png" alt="Imagen de Chocolate con Fresas" width="300" hight="400">
+ </center>
+	<h1>Menu</h1>
+	<ul>
+		<li><a href="no se.html">Menu</a></li>
+	</ul>
+	<br>
+	<h1>Redes sociales</h1>
+		<li><a href="REDES CHOCOPOP.HTML">Comentarios</a></li>
+</body>
+</html>
